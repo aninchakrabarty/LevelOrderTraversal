@@ -1,0 +1,11 @@
+public void levelorder(Node no) // no is the Root node
+{
+      Queue<Node> que=new LinkedList<>();
+      que.add(no);
+      while(!que.isEmpty()){
+       Node nod=que.poll();
+      // Print the Node Value...
+      if(nod.left!=null) //Add the left node// que.add(nod.left);
+      if(nod.right!=null) // Add right.
+          
+      }
